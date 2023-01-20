@@ -19,7 +19,7 @@ nav {
   padding: 5px;
   font-family: "Comfortaa", cursive;
 }
-nav > div {
+nav div:first-of-type {
   display: flex;
 }
 nav ul {
@@ -38,13 +38,6 @@ nav ul li a {
 nav img {
   height: 50px;
 }
-nav button.dark-theme {
-  background-color: #007f5f;
-  border-width: 0;
-  border-radius: 5px;
-  color: white;
-}
-
 main {
   font-family: "Comfortaa", cursive;
 }
@@ -56,9 +49,14 @@ main {
 
 .carousel-item {
   width: 100%;
+  text-align: center;
 }
 .carousel-item img {
-  width: 150px;
+  width: 50%;
+  max-width: 150px;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .controls span {
@@ -74,8 +72,13 @@ main {
 }
 
 .partners-list {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
+}
+@media screen and (min-width: 320px) {
+  .partners-list {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .partners-list .partner img {
   max-width: 100px;

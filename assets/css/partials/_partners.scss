@@ -1,6 +1,10 @@
 .partners-list {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
+
+  @media screen and (min-width: 320px) {
+    display: flex;
+    justify-content: space-around;
+  }
   .partner img {
     max-width: 100px;
   }

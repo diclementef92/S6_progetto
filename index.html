@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Album example · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div>
+                <img src="./assets/img/albero.jpg" alt="albero-logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./contatti.html">Contatti<a></li>
+                    <li><a href="./aboutUs.html">Chi Siamo</a></li>
+                </ul>
+            </div>
+            <button class="dark-theme">tema scuro</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="p-5 text-center ">
+            <!-- <img src="./assets/img/piante_appartamento.jpg"
+                style="position: absolute; top:0; left:0; opacity: 0.3; width: 100%; aspect-ratio: 1/1;" alt=""> -->
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Tree Space</h1>
+                    <p class="lead text-muted">
+                        la nostra mission: portare un po' di ossigeno colore natura nella tua casa
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-success my-2">Vai al catalogo</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+
+
+            <div class="album py-4 ">
+                <h2>Le più richieste</h2>
+                <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> -->
+                <div class="row  g-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card shadow-sm">
+                            <img src="./assets/img/pianta1.webp" alt="pianta">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="card-text">Pianta di ibuscus in vaso, media</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-success">aggiungi al
+                                            carrello</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card shadow-sm">
+                            <img src="./assets/img/pianta2.jpg" alt="pianta">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="card-text">Pianta grassa in vaso, piccola</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-success">aggiungi al
+                                            carrello</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card shadow-sm">
+                            <img src="./assets/img/pianta3.webp" alt="pianta1">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="card-text">Pianta finta, piccola</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-success">aggiungi al
+                                            carrello</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="card shadow-sm">
+                            <img src="./assets/img/pianta1.webp" alt="pianta1">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <p class="card-text">Pianta di ibuscus in vaso, media</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-success">aggiungi al
+                                            carrello</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="partners">
+                <h2>I nostri partner</h2>
+                <div class="partners-list">
+                    <div class="partner"><img src="./assets/img/logo2.png" alt=""></div>
+                    <div class="partner"><img src="./assets/img/logo3.png" alt=""></div>
+                    <div class="partner"><img src="./assets/img/logo4.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class=""></div>
+            <!--inizio carosello -->
+            <div id="carousel-testimonials" class="carousel slide d-none d-sm-block my-4" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="5000">
+                        <p class="lead font-italic mx-4 mx-md-5">
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                            numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+                        </p>
+                        <div class="mt-5 mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
+                                height="100" />
+                        </div>
+                        <p class="text-muted mb-0">- Anna Morian</p>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <p class="lead font-italic mx-4 mx-md-5">
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                            numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+                        </p>
+                        <div class="mt-5 mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
+                                height="100" />
+                        </div>
+                        <p class="text-muted mb-0">- Anna Morian</p>
+                    </div>
+                    <div class="carousel-item" data-interval="5000">
+                        <p class="lead font-italic mx-4 mx-md-5">
+                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                            numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+                        </p>
+                        <div class="mt-5 mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
+                                height="100" />
+                        </div>
+                        <p class="text-muted mb-0">- Anna Morian</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-dark" href="#carousel-testimonials" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next bg-dark" href="#carousel-testimonials" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only "></span>
+                </a>
+            </div>
+            <!-- fine carosello -->
+
+        </div>
+
+    </main>
+
+    <footer class="text-muted py-5 bg-light">
+        <div class=" container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <p class="mb-1">&copy;Tree Space</p>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+main {
+  font: {
+    family: $main-font;
+  }
+  @media screen and (max-width: 720px) {
+    font-size: 0.8em;
+  }
+}

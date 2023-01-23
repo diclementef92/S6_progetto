@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.108.0">
-    <title>Album example · Bootstrap v5.3</title>
+    <title>Tree Space Store</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -37,21 +37,31 @@
 <body>
 
     <header>
-        <nav>
-            <div>
+        <nav class="navbar navbar-expand-md">
+            <a href="#">
                 <img src="./assets/img/albero.jpg" alt="albero-logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="./contatti.html">Contatti<a></li>
-                    <li><a href="./aboutUs.html">Chi Siamo</a></li>
-                </ul>
-            </div>
-            <div>
-                <a class="text-dark" href="https://www.facebook.com/"><i class="bi bi-facebook me-2"></i></a>
-                <a class="text-dark" href="https://www.instagram.com/"><i class="bi bi-instagram me-2"></i></a>
-                <a class="text-dark" href="https://www.twitter.com/"><i class="bi bi-twitter me-2"></i></a>
+                Tree Space
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contatti.html">Contatti<a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutUs.html">Chi Siamo</a></li>
 
-                <i class="bi bi-moon-fill dark-theme ms-2"></i>
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/">
+                            <i class="bi bi-facebook me-2"></i>
+                        </a>
+                        <a href="https://www.instagram.com/"><i class="bi bi-instagram me-2"></i>
+                        </a>
+                        <a href="https://www.twitter.com/"><i class="bi bi-twitter me-2"></i></a>
+                        <i class="bi bi-moon-fill dark-theme ms-2"></i>
+                        <i class="bi bi-sun-fill light-theme ms-2"></i>
+                </ul>
             </div>
         </nav>
     </header>
@@ -199,8 +209,8 @@
 
     </main>
 
-    <footer class="text-muted py-5 bg-light">
-        <div class=" container">
+    <footer class="text-muted py-4 bg-light">
+        <div class="container">
             <p class="float-end mb-1">
                 <a href="#">Back to top</a>
             </p>
@@ -218,7 +228,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
+    <script src="./assets/js/app.js"></script>
 
 </body>
 

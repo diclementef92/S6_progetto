@@ -5,6 +5,7 @@ body {
 
 a {
   text-decoration: none;
+  color: rgb(63, 63, 63);
 }
 
 ul {
@@ -12,32 +13,19 @@ ul {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: rgb(154, 191, 0);
-  padding: 5px;
   font-family: "Comfortaa", cursive;
-}
-nav div:first-of-type {
-  display: flex;
-}
-nav ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  margin-left: 20px;
-}
-nav ul li {
-  margin-right: 10px;
-}
-nav ul li a {
-  color: rgb(63, 63, 63);
 }
 nav img {
   height: 50px;
 }
+nav .dark-theme {
+  cursor: pointer;
+}
+nav .light-theme {
+  cursor: pointer;
+}
+
 main {
   font-family: "Comfortaa", cursive;
 }

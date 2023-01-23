@@ -1,37 +1,17 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: $nav-bg-color;
-  padding: 5px;
   font: {
     family: $nav-font;
   }
-  div:first-of-type {
-    display: flex;
-  }
 
-  ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin-left: $margin-nav;
-
-    li {
-      margin-right: $margin-nav-items;
-      a {
-        color: $main-font-color;
-      }
-    }
-  }
   img {
     height: $logo-height;
   }
+
   .dark-theme {
-    // background-color: $btn-bg-color;
-    // border-width: 0;
-    // border-radius: 5px;
-    // color: $text-color;
+    cursor: pointer;
+  }
+  .light-theme {
+    cursor: pointer;
   }
 }
